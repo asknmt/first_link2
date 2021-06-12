@@ -1,0 +1,322 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+}
+/* ヘッダー */
+header {
+  height: 60px;
+  width: auto;
+  position: absolute;
+}
+
+.logo {
+  margin-left: 50px;  
+  margin-top: 20px;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+/* チェックボックスは非表示に */
+.drawer-hidden {
+  display: none;
+}
+
+.drawer-open {
+  display: flex;
+  height: 60px;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;/* 重なり順を一番上に */
+  cursor: pointer;
+  float: right;
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+/* 三本線のうち一番上の棒の位置調整 */
+.drawer-open span:before {
+  bottom: 8px;
+}
+
+/* 三本線のうち一番下の棒の位置調整 */
+.drawer-open span:after {
+  top: 8px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer-check:checked ~ .drawer-open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#drawer-check:checked ~ .drawer-open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#drawer-check:checked ~ .drawer-open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+/* メニューのデザイン*/
+.drawer-content {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%;/* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: rgba(12, 12, 12, 0.911);
+  transition: .5s;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.drawer-content ul {
+  list-style: none;
+}
+
+.drawer-content a {
+  color: white;
+}
+
+/* アイコンがクリックされたらメニューを表示 */
+#drawer-check:checked ~ .drawer-content {
+  left: 70%;/* メニューを画面に入れる */
+}
+/* チェックボックスは非表示に */
+.drawer-hidden {
+  display: none;
+}
+/*ハンバーガーメニュー*/
+.drawer-open span,
+.drawer-open span::before,
+.drawer-open span::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: #fff;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.drawer-item {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.drawer {
+  display: block;
+}
+
+.burger-musk {
+  background-color: rgba(56, 56, 56, 0.603);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  z-index: 50;
+  display: none;
+}
+
+.drawer-open.change span,
+.drawer-open.change span:before,
+.drawer-open.change span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: #222;
+  transition: 0.5s;
+  position: absolute;
+}
+.drawer-open .change {
+display: flex;
+height: 60px;
+width: 15%;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 100;/* 重なり順を一番上に */
+cursor: pointer;
+float: right;
+z-index: 100;
+position: fixed;
+top: 0px;
+right: 0px;
+}
+
+body.nonscroll {
+  overflow: hidden;
+}
+.menu {
+  display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 100px;
+  padding-top: 0;
+  font-family: 'arial black';
+}
+.color {
+  color:#fff!important;
+}
+.copy {
+  color: #fff;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.copy-size p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.contact-us {
+  font-family: 'arial black';
+  margin-top: 0;
+  font-size: 70px;
+}
+
+.company {
+  z-index: 100;
+  padding-top: 180px;
+  margin-right: -180px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*ファーストビュー*/
+.contents {
+  height: 90%;
+}
+
+.first {
+  background-image: url(img/heading-img_contact.png);
+  height: 60%;
+  width: 80%;
+  background-size: cover;
+  z-index: 5;
+  padding: 0;
+  margin: 0;
+}
+.first::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #222;
+  width: 50%;
+  height: 70%;
+  z-index: -1;
+}
+
+/*フォーム*/
+.radio {
+  font-size: 15px;
+  margin-right: 60px;
+}
+.text-p {
+  font-size: 15px;
+  color: rgb(80, 79, 79);
+  margin-bottom: 20px;
+}
+.form-text,.form input,.form textarea {
+  width: 100%;
+}
+.form input {
+  height: 40px;
+}
+.form textarea {
+  height: 250px;
+}
+.form-text {
+  margin-top: 50px;
+  font-size: 15px;
+  display: inline-block;
+  width: 15%;
+  margin-bottom: 10px;
+}
+.tell {
+  margin-top: 50px;
+  font-size: 15px;
+  display: inline-block;
+  width: 8%;
+  margin-bottom: 10px;
+}
+.mail {
+  margin-top: 50px;
+  font-size: 15px;
+  display: inline-block;
+  width: 13%;
+  margin-bottom: 10px;
+}
+.policy {
+  width: 50%;
+  margin-top: 50px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.must {
+  font-size: 12px;
+  background-color: #222;
+  color: #fff;
+  display: inline-block;
+  padding: 3px 3px;
+}
+.form {
+  color: rgb(80, 79, 79);
+}
+.check {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.form-btn {
+  text-align: center;
+  margin: 60px 0 100px 0;
+}
+
+.form-btn a {
+  color: #fff;
+  background-color: #222;
+  padding: 20px 80px;
+}
+/*フッター*/
+.footer {
+  height: 60px;
+  background-color: rgba(92, 91, 91, 0.925);
+  margin-top: 0;
+  z-index: 100;
+}
+.footer p {
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+}
+.form textarea {
+  white-space: pre-line;
+}

@@ -1,0 +1,64 @@
+@media (max-width: 1050px){
+.main {
+  width: 90%;
+}
+.drawer-open {
+  right: 40px;
+}
+.first {
+  background-size:cover;
+  background-position:center center;
+  height: 70%;
+}
+.first::after {
+  height: 60%;
+}
+.contents {
+  height: 70%;
+}
+.company {
+  z-index: 100;
+  padding-top: 230px;
+  margin-right: -130px;
+  display: flex;
+  justify-content: flex-end;
+}
+ .copy-size p {
+  font-size: 20px;
+}
+.copy-size h1 {
+  font-size: 60px;
+}
+.text-p {
+  font-size: 18px;
+}
+/*フォーム*/
+.select {
+  margin-bottom: 20px;
+}
+.radio {
+  font-size: 20px;
+}
+.form-text {
+  font-size: 20px;
+  width: 25%;
+}
+.tell {
+  font-size: 20px;
+  width: 15%;
+}
+.mail {
+  font-size: 20px;
+  width: 20%;
+}
+.policy {
+  font-size: 20px;
+}
+.must {
+  font-size: 15px;
+}
+.check {
+  font-size: 15px;
+}
+
+}

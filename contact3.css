@@ -1,0 +1,78 @@
+@media (max-width: 670px){
+  .main {
+    width: 80%;
+  }
+/*ハンバーガーメニュー*/
+.drawer-contet {
+  width: 5%;
+}
+  .menu {
+    margin-right: 30px;
+    font-size: 10px;
+  }
+  .drawer-open {
+    right: 40px;
+}
+/*トップ*/
+.company {
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -60px;
+}
+.copy-size {
+  margin-top: 150px;
+}
+.contents {
+  height: 80%;
+}
+.copy-size p {
+  font-size: 20px;
+}
+.copy-size h1 {
+  font-size: 50px;
+}
+.logo {
+  width: 60%;
+  margin-left: 20px;
+}
+.first {
+  height: 80%;
+}
+.first::after {
+  height: 75%;
+}
+
+/*フォーム*/
+.radio {
+  font-size: 15px;
+  margin-right: 0;
+}
+.text-p {
+  font-size: 13px;
+}
+.form-text {
+  font-size: 15px;
+  width: 40%;
+}
+.tell {
+  font-size: 15px;
+  width: 20%;
+}
+.mail {
+  font-size: 15px;
+  width: 50%;
+}
+.policy {
+  font-size: 15px;
+}
+.must {
+  font-size: 10px;
+}
+.check {
+  font-size: 13px;
+}
+.form textarea {
+  font-size: 12px;
+}
+}
