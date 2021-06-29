@@ -8,10 +8,13 @@
 }
   .menu {
     margin-right: 30px;
-    font-size: 10px;
+    font-size: 0.2rem;
   }
   .drawer-open {
     right: 40px;
+}
+.drawer-item {
+  font-size: 1.5rem;
 }
 /*トップ*/
 .company {
@@ -27,10 +30,10 @@
   height: 80%;
 }
 .copy-size p {
-  font-size: 20px;
+  font-size: 1rem;
 }
 .copy-size h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 .logo {
   width: 60%;
@@ -45,34 +48,34 @@
 
 /*フォーム*/
 .radio {
-  font-size: 15px;
+  font-size: 0.8rem;
   margin-right: 0;
 }
 .text-p {
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 .form-text {
-  font-size: 15px;
+  font-size: 0.8rem;
   width: 40%;
 }
 .tell {
-  font-size: 15px;
+  font-size: 0.8rem;
   width: 20%;
 }
 .mail {
-  font-size: 15px;
+  font-size: 0.8rem;
   width: 50%;
 }
 .policy {
-  font-size: 15px;
+  font-size: 0.8rem;
 }
 .must {
-  font-size: 10px;
+  font-size: 0.6rem;
 }
 .check {
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 .form textarea {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 }
