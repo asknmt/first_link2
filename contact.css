@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-size: 62.5%;
 }
 body {
   height: 100%;
@@ -116,7 +117,7 @@ header {
 }
 
 .drawer-item {
-  font-size: 30px;
+  font-size: 2rem;
   padding-bottom: 40px;
 }
 
@@ -185,17 +186,17 @@ body.nonscroll {
   color: #fff;
   display: block;
   margin-bottom: 15px;
+  font-size: 1.2rem;
 }
 
 .copy-size p {
-  font-size: 20px;
   margin-left: 10px;
 }
 
-.contact-us {
+.copy-size h1 {
   font-family: 'arial black';
   margin-top: 0;
-  font-size: 70px;
+  font-size: 4.5rem;
 }
 
 .company {
@@ -234,11 +235,11 @@ body.nonscroll {
 
 /*フォーム*/
 .radio {
-  font-size: 15px;
+  font-size: 1rem;
   margin-right: 60px;
 }
 .text-p {
-  font-size: 15px;
+  font-size: 1rem;
   color: rgb(80, 79, 79);
   margin-bottom: 20px;
 }
@@ -253,33 +254,33 @@ body.nonscroll {
 }
 .form-text {
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 1rem;
   display: inline-block;
-  width: 15%;
+  width: 25%;
   margin-bottom: 10px;
 }
 .tell {
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 1rem;
   display: inline-block;
-  width: 8%;
+  width: 15%;
   margin-bottom: 10px;
 }
 .mail {
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 1rem;
   display: inline-block;
-  width: 13%;
+  width: 20%;
   margin-bottom: 10px;
 }
 .policy {
   width: 50%;
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 .must {
-  font-size: 12px;
+  font-size: 0.8rem;
   background-color: #222;
   color: #fff;
   display: inline-block;
@@ -302,6 +303,7 @@ body.nonscroll {
   color: #fff;
   background-color: #222;
   padding: 20px 80px;
+  font-size: 1rem;
 }
 /*フッター*/
 .footer {
@@ -314,7 +316,7 @@ body.nonscroll {
   line-height: 60px;
   color: #fff;
   text-align: center;
-  font-size: 10px;
+  font-size: 0.2rem;
   margin: 0;
 }
 .form textarea {
