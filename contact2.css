@@ -18,47 +18,46 @@
 }
 .company {
   z-index: 100;
-  padding-top: 230px;
-  margin-right: -130px;
+  padding-top: 232px;
+  margin-right: -136px;
   display: flex;
   justify-content: flex-end;
 }
  .copy-size p {
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 .copy-size h1 {
-  font-size: 60px;
+  font-size: 4.5rem;
 }
 .text-p {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 /*フォーム*/
 .select {
   margin-bottom: 20px;
 }
 .radio {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 .form-text {
-  font-size: 20px;
+  font-size: 1.2rem;
   width: 25%;
 }
 .tell {
-  font-size: 20px;
+  font-size: 1.2rem;
   width: 15%;
 }
 .mail {
-  font-size: 20px;
+  font-size: 1.2rem;
   width: 20%;
 }
 .policy {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 .must {
-  font-size: 15px;
+  font-size: 1rem;
 }
 .check {
-  font-size: 15px;
+  font-size: 1rem;
 }
-
 }
