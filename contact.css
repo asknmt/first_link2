@@ -16,14 +16,14 @@ body {
 }
 /* ヘッダー */
 header {
-  height: 60px;
+  height: 56px;
   width: auto;
   position: absolute;
 }
 
 .logo {
-  margin-left: 50px;  
-  margin-top: 20px;
+  margin-left: 56px;  
+  margin-top: 24px;
 }
 
 /* ハンバーガーアイコンの設置スペース */
@@ -34,7 +34,7 @@ header {
 
 .drawer-open {
   display: flex;
-  height: 60px;
+  height: 56px;
   width: 15%;
   justify-content: center;
   align-items: center;
@@ -83,7 +83,7 @@ header {
   background: rgba(12, 12, 12, 0.911);
   transition: .5s;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 104px;
 }
 
 .drawer-content ul {
@@ -109,7 +109,7 @@ header {
   content: '';
   display: block;
   height: 3px;
-  width: 25px;
+  width: 24px;
   border-radius: 3px;
   background: #fff;
   transition: 0.5s;
@@ -143,7 +143,7 @@ header {
   content: '';
   display: block;
   height: 3px;
-  width: 25px;
+  width: 24px;
   border-radius: 3px;
   background: #222;
   transition: 0.5s;
@@ -175,7 +175,7 @@ body.nonscroll {
   color: #fff;
   font-weight: bold;
   float: right;
-  margin-left: 100px;
+  margin-left: 104px;
   padding-top: 0;
   font-family: 'arial black';
 }
@@ -185,12 +185,12 @@ body.nonscroll {
 .copy {
   color: #fff;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   font-size: 1.2rem;
 }
 
 .copy-size p {
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .copy-size h1 {
@@ -201,8 +201,8 @@ body.nonscroll {
 
 .company {
   z-index: 100;
-  padding-top: 180px;
-  margin-right: -180px;
+  padding-top: 184px;
+  margin-right: -184px;
   display: flex;
   justify-content: flex-end;
 }
@@ -236,12 +236,12 @@ body.nonscroll {
 /*フォーム*/
 .radio {
   font-size: 1rem;
-  margin-right: 60px;
+  margin-right: 64px;
 }
 .text-p {
   font-size: 1rem;
   color: rgb(80, 79, 79);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .form-text,.form input,.form textarea {
   width: 100%;
@@ -250,34 +250,34 @@ body.nonscroll {
   height: 40px;
 }
 .form textarea {
-  height: 250px;
+  height: 256px;
 }
 .form-text {
-  margin-top: 50px;
+  margin-top: 56px;
   font-size: 1rem;
   display: inline-block;
   width: 25%;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .tell {
-  margin-top: 50px;
+  margin-top: 56px;
   font-size: 1rem;
   display: inline-block;
   width: 15%;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .mail {
-  margin-top: 50px;
+  margin-top: 56px;
   font-size: 1rem;
   display: inline-block;
   width: 20%;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .policy {
   width: 50%;
-  margin-top: 50px;
+  margin-top: 56px;
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .must {
   font-size: 0.8rem;
@@ -296,24 +296,24 @@ body.nonscroll {
 
 .form-btn {
   text-align: center;
-  margin: 60px 0 100px 0;
+  margin: 64px 0 104px 0;
 }
 
 .form-btn a {
   color: #fff;
   background-color: #222;
-  padding: 20px 80px;
+  padding: 24px 80px;
   font-size: 1rem;
 }
 /*フッター*/
 .footer {
-  height: 60px;
+  height: 56px;
   background-color: rgba(92, 91, 91, 0.925);
   margin-top: 0;
   z-index: 100;
 }
 .footer p {
-  line-height: 60px;
+  line-height: 56px;
   color: #fff;
   text-align: center;
   font-size: 0.2rem;
