@@ -51,31 +51,10 @@
   font-size: 0.8rem;
   margin-right: 0;
 }
-.text-p {
-  font-size: 0.8rem;
-}
-.form-text {
-  font-size: 0.8rem;
-  width: 40%;
-}
-.tell {
-  font-size: 0.8rem;
-  width: 20%;
-}
-.mail {
-  font-size: 0.8rem;
-  width: 50%;
-}
-.policy {
+.text-p,.form-text,.tell,.mail,.policy,.check,.form textarea {
   font-size: 0.8rem;
 }
 .must {
   font-size: 0.6rem;
 }
-.check {
-  font-size: 0.8rem;
 }
-.form textarea {
-  font-size: 0.8rem;
-}
-} 
