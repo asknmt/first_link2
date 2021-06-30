@@ -321,4 +321,5 @@ body.nonscroll {
 }
 .form textarea {
   white-space: pre-line;
+  font-size: 0.8rem;
 }
