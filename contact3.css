@@ -7,7 +7,7 @@
   width: 5%;
 }
   .menu {
-    margin-right: 30px;
+    margin-right: 32px;
     font-size: 0.2rem;
   }
   .drawer-open {
@@ -21,10 +21,10 @@
   padding-top: 0;
   display: flex;
   justify-content: flex-end;
-  margin-right: -60px;
+  margin-right: -64px;
 }
 .copy-size {
-  margin-top: 150px;
+  margin-top: 152px;
 }
 .contents {
   height: 80%;
@@ -37,7 +37,7 @@
 }
 .logo {
   width: 60%;
-  margin-left: 20px;
+  margin-left: 24px;
 }
 .first {
   height: 80%;
@@ -78,4 +78,4 @@
 .form textarea {
   font-size: 0.8rem;
 }
-}
+} 
