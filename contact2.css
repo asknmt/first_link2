@@ -36,28 +36,7 @@
 .select {
   margin-bottom: 24px;
 }
-.radio {
-  font-size: 1.2rem;
-}
-.form-text {
-  font-size: 1.2rem;
-  width: 25%;
-}
-.tell {
-  font-size: 1.2rem;
-  width: 15%;
-}
-.mail {
-  font-size: 1.2rem;
-  width: 20%;
-}
-.policy {
-  font-size: 1.2rem;
-}
-.must {
-  font-size: 1rem;
-}
-.check {
+.radio,.form-text,.tell,.policy,.mail,.must,.check {
   font-size: 1rem;
 }
 }
